@@ -2,10 +2,6 @@ import React, { useState, useEffect } from 'react'
 function MainScreen({ title }) {
 
     const [loading, setLoading] = useState(false)
-    const [date, setDate] = useState([])
-    useEffect(() => {
-
-    })
 
 
     const onBtnClick = () => {
